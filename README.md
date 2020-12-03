@@ -1,7 +1,6 @@
 # CarPrice
 
-Java Swing MVC application that allows users to checkout car prices and modify them. Essentially, it is a kbb.com (Kelly Blue Book) prototype.
-This application was created as a team project
+>Java Swing MVC application that allows users to checkout car prices and modify them. <br/>Essentially, it is a kbb.com (Kelly Blue Book) prototype.
 
 Application features:
 1) Checkout an available car
@@ -21,14 +20,14 @@ Cars are saved in a serialized file. If the file gets deleted, the software "hea
 
 (insert image here)
 
-Model uses the Singleton pattern, in which the car list is wrapped in a SingleCarList class that is shared across the application.
+Model uses the Singleton pattern, in which the car list is wrapped in a SingleCarList class that is shared across the application. <br/>
 Model, View, and Controller classes are strictly separated, following the MVC pattern.
 
 
 ## Project Origins
 
-This application was made as a semester team project for SJSU.
-The collaborators:
-  Ahror Abdulhamidov - team leader (Me)
-  Dickson Minang
-  Basmah Altimimi
+This application was made as a semester team project for SJSU. <br/>
+The collaborators: <br/>
+  - Ahror Abdulhamidov - team leader (Me) <br/>
+  - Dickson Minang <br/>
+  - Basmah Altimimi <br/>
