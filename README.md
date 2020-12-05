@@ -9,19 +9,19 @@ Cars are saved in a serialized file. If the file gets deleted, the software "hea
 
 ## Application's Screenshots
 
-###Main Screen
+**Main Screen**
 
 ![](screenshot_1.png)
 
-###Checking Out the Existing Car
+**Checking Out the Existing Car**
 
 ![](screenshot_2.png)
 
-###Adding a New Car
+**Adding a New Car**
 
 ![](screenshot_3.png)
 
-###Editing the Existing Car
+**Editing the Existing Car**
 
 ![](screenshot_4.png)
 
