@@ -2,7 +2,7 @@
 
 >Java Swing MVC application that allows users to check out car prices and modify them. <br/>Essentially, it is a kbb.com (Kelly Blue Book) prototype.
 
-To run the application, double click the **CarPrice.jar** file in the project folder.
+To run the application, double click the **CarPrice.jar** file in the project folder. To view the Java documentation, go to the JavaDoc folder.
 
 Cars are saved in a serialized file. If the file gets deleted, the software "heals" itself and recreates the file with some initial test cars.
 
