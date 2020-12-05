@@ -5,6 +5,9 @@ import model.*;
 import java.io.*;
 import java.util.ArrayList;
 
+/**
+ * FileIO class has some static methods for serialization.
+ */
 public class FileIO {
 
     /**Location of the data folder with serialized files */

@@ -218,4 +218,15 @@ public class CarInfo implements Serializable {
         return carInfo;
     }
 
+    public Car getCar() {
+        Car car = new Car(name, basePrice);
+        for (int i = 0; i < getOptionSetInfosSize(); i++) {
+            car.addOptionSet(getOptionSetInfoName(i));
+            for (int j = 0; j < getOptionInfosSize(i); j++) {
+                car.addOption(i, getOptionInfoName(i, j), getOptionInfoPrice(i, j));
+            }
+        }
+        return car;
+    }
+
 }

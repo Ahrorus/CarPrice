@@ -11,15 +11,15 @@ import java.util.ArrayList;
  */
 public class Car implements Serializable {
 
-    /** Represents Car's name */
+    /**Represents Car's name */
     private String name;
-    /** Represents Car's base price */
+    /**Represents Car's base price */
     private double basePrice;
-    /** Represents Car's total price */
+    /**Represents Car's total price */
     private double totalPrice;
-    /** Represents list of OptionSets */
+    /**Represents list of OptionSets */
     private ArrayList<OptionSet> optionSets;
-    /** Represents user's Option choices */
+    /**Represents user's Option choices */
     private int[] choices;
 
     /**
@@ -174,20 +174,20 @@ public class Car implements Serializable {
     }
 
     /**
+     * Deletes the specified OptionSet
+     * @param i OptionSet id
+     */
+    public void deleteOptionSet(int i) {
+        optionSets.remove(i);
+    }
+
+    /**
      * Deletes the specified Option
      * @param i OptionSet id
      * @param j Option id
      */
     public void deleteOption(int i, int j){
         optionSets.get(i).getOptions().remove(j);
-    }
-
-    /**
-     * Deletes the specified OptionSet
-     * @param i OptionSet id
-     */
-    public void deleteOptionSet(int i) {
-        optionSets.remove(i);
     }
 
     /**
